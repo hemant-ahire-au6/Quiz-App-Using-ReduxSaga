@@ -5,7 +5,7 @@ import { startGame } from '../../store/slices/gameState.slice';
 
 const StartGame = () => {
   const dispatch = useDispatch();
-  const [username, setUsername] = useState('Raul');
+  const [username, setUsername] = useState('Hemant');
 
   const startGameHandler = () => {
     dispatch(startGame({ username }));
